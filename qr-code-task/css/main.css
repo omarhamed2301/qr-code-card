@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-color: hsl(212, 45%, 89%)
+}
+.cards{
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+.card{
+    border-radius: 10px;
+}
+.cards .card-img {
+    padding: 20px;
+}
+.cards .card-info{
+    padding: 0px 20px 20px 20px;
+}
+.cards .card-img img{
+    border-radius: 10px;
+}
+.cards .card-info h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
+}
+.cards .card-info p{
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
